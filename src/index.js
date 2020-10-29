@@ -1,6 +1,7 @@
 const RomanNumber = require("./roman.js");
 
-const rn = new RomanNumber(2999);
-console.log(rn);
-console.log(rn.toString());
-console.log(rn.toInt());
+const rn1 = new RomanNumber(2999);
+const rn2 = new RomanNumber("MCMLXXX");
+
+console.log(rn1.toString());
+console.log(rn2.toInt());
